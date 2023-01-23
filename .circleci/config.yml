@@ -9,7 +9,7 @@ jobs:
     docker:
       - image: python:3.7-alpine3.11
     steps:
-      - checkout:
+      - checkout
       - add_ssh_keys:
           fingerprints: ["65:f2:3c:63:40:02:56:c3:c6:51:93:14:58:bc:85:1f"]
       - run:
