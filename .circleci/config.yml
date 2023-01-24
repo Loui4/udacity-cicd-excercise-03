@@ -19,7 +19,7 @@ jobs:
             apt update --yes
             apt install software-properties-common --yes
             add-apt-repository --yes --update ppa:ansible/ansible
-            apt install ansible
+            apt install ansible --yes
       - run:
           name: Run playbook and configure server
           command: |
